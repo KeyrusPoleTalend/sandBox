@@ -12,6 +12,13 @@
     <module>jobs/process/testcloud_0.1</module>
     <module>code/routines</module>
   </modules>
+  <distributionManagement>
+    <repository>
+      <id>snapshots</id>
+      <name>snapshots</name>
+      <url>http//localhost:8081/repository/snapshots/</url>
+    </repository>
+  </distributionManagement>
   <properties>
     <talend.project.name>SANDBOXPOLETALEND</talend.project.name>
     <encoding>UTF-8</encoding>
