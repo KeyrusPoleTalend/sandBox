@@ -14,9 +14,9 @@
   </modules>
   <distributionManagement>
     <repository>
-      <id>snapshots</id>
-      <name>snapshots</name>
-      <url>http://localhost:8081/repository/snapshots/</url>
+      <id>releases</id>
+      <name>releases</name>
+      <url>http://localhost:8081/repository/releases/</url>
     </repository>
   </distributionManagement>
   <properties>
