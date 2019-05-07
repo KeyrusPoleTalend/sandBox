@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_LFmQYHCmEemFFNAWKCaRtw" label="sandBoxPoleTalend" description="sandBox Project" language="java" technicalLabel="SANDBOXPOLETALEND" author="_LFmQYXCmEemFFNAWKCaRtw" productVersion="Talend Cloud Real-Time Big Data Platform-7.0.1.20180411_1414" url="{&quot;location&quot;:&quot;https://Keyrus.PoleTalend@github.com/KeyrusPoleTalend/sandBox&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false">
+  <TalendProperties:Project xmi:id="_LFmQYHCmEemFFNAWKCaRtw" label="sandBoxPoleTalend" description="sandBox Project" language="java" technicalLabel="SANDBOXPOLETALEND" author="_LFmQYXCmEemFFNAWKCaRtw" productVersion="Talend Cloud Real-Time Big Data Platform-7.0.1.20180411_1414" url="{&quot;location&quot;:&quot;https://Keyrus.PoleTalend@github.com/KeyrusPoleTalend/sandBox&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <technicalStatus xmi:id="_L_FdIHCmEemFFNAWKCaRtw" label="development" code="DEV"/>
     <technicalStatus xmi:id="_L_FdIXCmEemFFNAWKCaRtw" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_L_FdInCmEemFFNAWKCaRtw" label="production" code="PROD"/>
@@ -85,6 +85,24 @@
         <elementParameter xmi:id="_VnQ4b3CmEemFFNAWKCaRtw" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" contextMode="false"/>
       </parameters>
     </implicitContextSettings>
+    <ItemsRelations xmi:id="_CJE0wHC7EemcE9yXxRTxJQ">
+      <baseItem xmi:id="_CJE0wXC7EemcE9yXxRTxJQ" id="_bbHtUHCmEemFFNAWKCaRtw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_CJE0wnC7EemcE9yXxRTxJQ" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJE0w3C7EemcE9yXxRTxJQ" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJE0xHC7EemcE9yXxRTxJQ" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJE0xXC7EemcE9yXxRTxJQ" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJE0xnC7EemcE9yXxRTxJQ" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJE0x3C7EemcE9yXxRTxJQ" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJE0yHC7EemcE9yXxRTxJQ" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJE0yXC7EemcE9yXxRTxJQ" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJE0ynC7EemcE9yXxRTxJQ" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJE0y3C7EemcE9yXxRTxJQ" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJE0zHC7EemcE9yXxRTxJQ" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJE0zXC7EemcE9yXxRTxJQ" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJE0znC7EemcE9yXxRTxJQ" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJE0z3C7EemcE9yXxRTxJQ" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_CJE00HC7EemcE9yXxRTxJQ" id="DataQualityDependencies" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_L-jRoHCmEemFFNAWKCaRtw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_L-jRoXCmEemFFNAWKCaRtw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_L-jRonCmEemFFNAWKCaRtw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
@@ -236,7 +254,6 @@
     <migrationTask xmi:id="_Mi1DfXCmEemFFNAWKCaRtw" id="org.talend.designer.xmlmap.migration.TXMLMapChangeAllInOneValueMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Mi1DfnCmEemFFNAWKCaRtw" id="org.talend.designer.mapper.migration.TMapSaveToEmfMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Mi1Df3CmEemFFNAWKCaRtw" id="org.talend.designer.dbmap.migration.ELTMapSaveToEmfMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
-    <migrationTask xmi:id="_Mi1DgHCmEemFFNAWKCaRtw" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Mi1DgXCmEemFFNAWKCaRtw" id="org.talend.repository.model.migration.ResetValuetInfiniteLoop" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Mi1DgnCmEemFFNAWKCaRtw" id="org.talend.repository.model.migration.UpgrateDatabaseTypeForSybaseConnection" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Mi1Dg3CmEemFFNAWKCaRtw" id="org.talend.repository.model.migration.RenamePasswordParaForLdapMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
@@ -466,6 +483,7 @@
     <migrationTask xmi:id="_Mi1EY3CmEemFFNAWKCaRtw" id="org.talend.repository.model.migration.WriteJSONQuoteAllValuesMigrationTask" breaks="7.0.1" version="7.0.1" status="noimpact"/>
     <migrationTask xmi:id="_Mi1EZHCmEemFFNAWKCaRtw" id="org.talend.core.migration.ItemSaveTriggerWholeDoc" breaks="7.0.0" version="7.0.0" status="noimpact"/>
     <migrationTask xmi:id="_Mi1EZXCmEemFFNAWKCaRtw" id="org.talend.repository.model.migration.FileInputPositionalByteLengthMigrationTask" breaks="7.0.1" version="7.0.1" status="noimpact"/>
+    <migrationTask xmi:id="_Mi1DgHCmEemFFNAWKCaRtw" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Mi1EZnCmEemFFNAWKCaRtw" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_LFmQYXCmEemFFNAWKCaRtw" login="laurent.conti@nfr.keyrus.com" firstName="Laurent" lastName="Conti" type="DQ"/>
